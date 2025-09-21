@@ -56,22 +56,25 @@ tqdm==4.67.1
 
 ## Run
 
-Please refer to the paper for details such as hyperparameters.
-Taking the running of the LeNet-5 neural network as an example.
+Please refer to the paper for details such as hyperparameters. Taking the running of the LeNet-5 neural network as an example.
 1. Create the necessary directories
 ```
 cd MNIST
 mkdir results
 mkdir weights```
+
 2.Run the search script
 ```
 python search.py```
+
 3.View the search result
 ```
 cat results.csv```
+
 4. Modify the hyperparameter in the training script. The results from results.csv should be increased by 1.
 ```
 vim train.py```
+
 5.Run the training script
 ```
 python train.py```
