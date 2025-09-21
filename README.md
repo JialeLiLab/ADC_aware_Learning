@@ -61,20 +61,25 @@ Please refer to the paper for details such as hyperparameters. Taking the runnin
 ```
 cd MNIST
 mkdir results
-mkdir weights```
+mkdir weights
+```
 
 2.Run the search script
 ```
-python search.py```
+python search.py
+```
 
 3.View the search result
 ```
-cat results.csv```
+cat results.csv
+```
 
 4. Modify the hyperparameter in the training script. The results from results.csv should be increased by 1.
 ```
-vim train.py```
+vim train.py
+```
 
 5.Run the training script
 ```
-python train.py```
+python train.py
+```
