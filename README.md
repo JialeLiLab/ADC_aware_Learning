@@ -45,6 +45,20 @@ RedPIM, an efficient ReRAM-based PIM accelerator design for deep neural networks
         __init__.py
 ```
 
+## Citation
+
+If RedPIM helps your research, please consider citing:
+```
+@article{10.1145/3769122,
+author = {Li, Jiale and Fu, Yulin and Ma, Sean Longyu and Sham, Chiu-Wing and Fu, Chong},
+title = {RedPIM: An Efficient PIM Accelerator Design with Reduced Analog-to-Digital Conversions},
+year = {2025},
+url = {https://doi.org/10.1145/3769122},
+doi = {10.1145/3769122},
+journal = {ACM Trans. Des. Autom. Electron. Syst.},
+}
+```
+
 ## Dependency
 ```
 numpy==2.3.2
